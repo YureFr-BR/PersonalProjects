@@ -21,7 +21,7 @@ public class InformacoesDoSistema {
       Toolkit resolucao = Toolkit.getDefaultToolkit();
         Dimension D = resolucao.getScreenSize();
         System.out.println("A resolução do seu sistema é de " + D.width + "x" + D.height );
-        
+       
     }
   
 }
