@@ -23,5 +23,5 @@ public class InformacoesDoSistema {
         System.out.println("A resolução do seu sistema é de " + D.width + "x" + D.height );
         
     }
-   
+  
 }
