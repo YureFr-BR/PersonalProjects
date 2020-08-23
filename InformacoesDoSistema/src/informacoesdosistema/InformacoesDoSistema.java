@@ -7,7 +7,7 @@ package informacoesdosistema;
 
 /**
  *
- * @author yure5
+ * @author YureFr-BR
  */
 public class InformacoesDoSistema {
 
