@@ -5,7 +5,6 @@ import java.awt.Toolkit;
 import java.util.Date;
 import java.util.Locale;
 /*
- *
  * @author YureFr-BR
  */
 public class InformacoesDoSistema {
