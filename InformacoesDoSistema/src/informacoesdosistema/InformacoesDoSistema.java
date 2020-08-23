@@ -13,7 +13,7 @@ public class InformacoesDoSistema {
 
  public static void main(String[] args) {
       Date relogio = new Date();
-        System.out.print("A data e hora do sistema é ");
+        System.out.print("A data e hora do sistema é: ");
         System.out.println(relogio.toString());
         
       Locale idioma = Locale.getDefault();
