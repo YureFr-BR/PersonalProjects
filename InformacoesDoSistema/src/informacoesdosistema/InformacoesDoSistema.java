@@ -1,4 +1,3 @@
-
 package informacoesdosistema;
 
 import java.awt.Dimension;
