@@ -5,7 +5,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.util.Date;
 import java.util.Locale;
-/**
+/*
  *
  * @author YureFr-BR
  */
@@ -23,7 +23,7 @@ public class InformacoesDoSistema {
       Toolkit resolucao = Toolkit.getDefaultToolkit();
         Dimension D = resolucao.getScreenSize();
         System.out.println("A resolução do seu sistema é de " + D.width + "x" + D.height );
-                  
+        
     }
     
 }
