@@ -15,6 +15,8 @@ public class InformacoesDoSistema {
         System.out.print("A data e hora do sistema é: ");
         System.out.println(relogio.toString());
         
+// Retorna informações do S.O
+
        Properties propriedades = System.getProperties();
         System.out.print("O seu sistema operacional é: ");
         System.out.println( System.getProperty("os.name") );
