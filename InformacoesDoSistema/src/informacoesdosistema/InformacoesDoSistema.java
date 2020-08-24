@@ -4,6 +4,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Properties;
 /*
  * @author: YureFr-BR
  */
@@ -14,8 +15,14 @@ public class InformacoesDoSistema {
         System.out.print("A data e hora do sistema é: ");
         System.out.println(relogio.toString());
         
+       Properties propriedades = System.getProperties();
+        System.out.print("O seu sistema operacional é: ");
+        System.out.println( System.getProperty("os.name") );
+        System.out.print("A arquitetura do seu sistema é: ");
+        System.out.println( System.getProperty("os.arch"));
+        
       Locale idioma = Locale.getDefault();
-        System.out.print("O seu sistema está em: ");
+        System.out.print("O idioma atual do seu sistema é: ");
         System.out.println(idioma.getDisplayLanguage());
         
       Toolkit resolucao = Toolkit.getDefaultToolkit();
