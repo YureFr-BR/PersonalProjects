@@ -11,7 +11,14 @@ import java.util.Properties;
 public class InformacoesDoSistema {
 
  public static void main(String[] args) {
-      Date relogio = new Date();
+     
+     // Retorna nome do usuário atual
+     System.out.print("Olá ");
+     Properties usuario = System.getProperties();
+        System.out.print( System.getProperty("user.name") );
+        System.out.println(", bem vindo de volta!");
+        
+     Date relogio = new Date();
         System.out.print("A data e hora do sistema é: ");
         System.out.println(relogio.toString());
         
