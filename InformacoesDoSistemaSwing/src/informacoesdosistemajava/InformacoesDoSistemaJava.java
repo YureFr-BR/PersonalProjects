@@ -13,8 +13,7 @@ import java.util.Properties;
 
 
 
-/**
- *
+/*
  * @author YureFr-BR
  */
 
