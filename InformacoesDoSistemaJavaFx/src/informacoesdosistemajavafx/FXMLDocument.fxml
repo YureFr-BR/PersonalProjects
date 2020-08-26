@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informacoesdosistemajavafx.FXMLDocumentController">
+   <children>
+      <Label fx:id="lblMensagem1" layoutX="14.0" layoutY="14.0" text="Seja bem vindo de volta!" />
+      <Label fx:id="lblMensagem2" layoutX="14.0" layoutY="31.0" text="Acesso realizado em:" />
+      <Label fx:id="lblUserName" layoutX="154.0" layoutY="14.0" text="UserName" />
+      <Label fx:id="lblDataHora" layoutX="154.0" layoutY="31.0" text="DataHora" />
+      <Button fx:id="btnClick" layoutX="14.0" layoutY="60.0" mnemonicParsing="false" onAction="#clicouBotao" text="Verificar Informações do Sistema" />
+   </children>
+</AnchorPane>
